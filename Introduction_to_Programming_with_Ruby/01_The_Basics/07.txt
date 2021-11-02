@@ -1,0 +1,4 @@
+It tells us that there is something wrong in the syntax.
+
+Specifically, there is an opening bracket somewhere in the program without a 
+closing bracket following it.
