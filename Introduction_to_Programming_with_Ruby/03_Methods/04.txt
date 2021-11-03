@@ -1,0 +1,19 @@
+Question:
+What will the following code print to the screen?
+
+def scream(words)
+  words = words + "!!!!"
+  return
+  puts words
+end
+
+scream("Yippeee")
+
+Answer:
+The code above will print nothing to the screen.
+
+Ruby returns the evaluated result of the expression following the return
+keyword, and ignores all lines after that. As it is a blank after the return
+keyword, the method invocation scream returns nil. And, as there is no method
+invocation specifiying what to do with the return value, the code will not 
+print anything to the screen.
