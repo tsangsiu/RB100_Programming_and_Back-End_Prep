@@ -1,0 +1,9 @@
+Question:
+Why do you get this error and how can you fix it?
+
+Answer:
+We get this error because there is a syntax error. We need an end keyword to 
+close off the equal_to_four method, while the end keyword on line 6 matches with
+the if..else statement.
+
+To fix this, simlpy insert an end keyword between lines 5 and 6.
