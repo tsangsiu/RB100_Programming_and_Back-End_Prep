@@ -1,0 +1,6 @@
+Answer:
+An Array's element is accessed by its index, not by its value.
+
+To fixed it, we can do either of the following:
+  1. names[3] = 'jody'
+  2. names[names.index('margaret')] = 'jody'
