@@ -1,0 +1,5 @@
+Questions:
+What's the major difference between an Array and a Hash?
+
+Answer:
+A Hash stores data by associated keys, while an Array does not.
