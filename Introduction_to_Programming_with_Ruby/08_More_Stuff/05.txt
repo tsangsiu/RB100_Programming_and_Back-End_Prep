@@ -1,0 +1,6 @@
+Answer:
+The code raises an error because execute is defined to take one argument, but
+no argument is passed into the it when calling it.
+
+If the intention is to pass in a block as a parameter, the parameter name should
+be prepended with a '&' sign.
