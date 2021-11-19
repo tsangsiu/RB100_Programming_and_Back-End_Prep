@@ -1,0 +1,24 @@
+Question:
+Test the pattern /\s...\s/ from the previous exercise against this text:
+
+Doc in a big red box.
+Hup! 2 3 4
+
+Observe that one of the three-letter words in this text match the pattern; it 
+also matches 2 3. Why is it that this pattern doesn't include the three-letter
+words Doc, red, box, or Hup, but it does match 2 3?
+
+Answer:
+/\s...\s/ doesn't match Doc, as it doesn't start with a whitespace character.
+
+It matches big, as it starts and ends with a whitespace character.
+
+It doesn't match red, as the whitespace before red is consumed to match big.
+Once a character is consumed, it is no longer available to subsequent matches.
+
+It doesn't match box, as the period after it is not a whitespace.
+
+It doesn't match Hup, as the exclamation mark after it is not a whitespace.
+
+It does match ' 2 3 ', as it starts and ends with a whitespace, and the
+metacharacter '.' matches any character.
