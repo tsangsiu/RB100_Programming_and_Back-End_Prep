@@ -1,0 +1,10 @@
+Question:
+Are /(ABC|abc)/ and /[Aa][Bb][Cc]/ equivalent regex? If not, how do they differ?
+Can you provide an example of a string that would match one of these regex, but
+not the other?
+
+Answer:
+Those two regex are not equivalent. While /(ABC|abc)/ matches only 'ABC' or
+'abc', /[Aa][Bb][Cc]/ matches 'abc', regardless of the case.
+
+For example, /[Aa][Bb][Cc]/ matches 'Abc', but /(ABC|abc)/ does not.

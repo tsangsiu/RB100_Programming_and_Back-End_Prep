@@ -1,0 +1,6 @@
+Question:
+Why is /[^xX]/ not a valid answer to the previous exercise?
+
+Answer:
+/[^xX]/ matches any characters that is not 'x' or 'X'. That includes non-letters
+like numbers, symbols and even escape sequence like '\n'.
