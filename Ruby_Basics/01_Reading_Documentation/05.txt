@@ -1,0 +1,9 @@
+https://ruby-doc.org/core-3.0.2/doc/syntax/literals_rdoc.html#label-Numbers
+
+We can write number iterals like this to make them easier to read:
+1234
+1_234
+
+Further Exploration
+We can write a number as 19_87_65_4321. We can place an underscore anywhere in
+the number.

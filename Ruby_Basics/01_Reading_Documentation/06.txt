@@ -1,0 +1,4 @@
+https://ruby-doc.org/core-3.0.2/doc/syntax/literals_rdoc.html#label-Symbols
+
+We can write a Symbol that represents our name like this:
+:Jason

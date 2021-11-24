@@ -1,0 +1,4 @@
+https://ruby-doc.org/core-3.0.2/doc/syntax/control_expressions_rdoc.html#label-break+Statement
+
+break returns the evaluated result of the expression that is supplied to it for
+the while loop. If no argument is passed to break, it returns nil.

@@ -1,0 +1,3 @@
+https://ruby-doc.org/core-3.0.2/String.html#method-i-rjust
+
+String#rjust can be used to right justify a String object.
